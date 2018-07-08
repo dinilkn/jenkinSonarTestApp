@@ -14,6 +14,8 @@ agent any
    stage('Build Using Maven'){
      steps{
           echo 'Build Using Maven'
+          sh 'mvn clean package -DskipTests=true'
+            
           
 
      }
