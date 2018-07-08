@@ -10,6 +10,14 @@ agent any
 
      }
    }
+  
+   stage('Build Using Maven'){
+     steps{
+          echo 'Build Using Maven'
+          
+
+     }
+   }
  }
 
 
