@@ -25,7 +25,7 @@ public class RestfulwebservicesApplication {
 		return localeResolver;
 		
 	}
-	
+
 	/*No need to giv this method implementatin in  spring boot you can configure it is appication.properties*/
 //	public ResourceBundleMessageSource  getResourceBundleMessageSource(){
 //		
