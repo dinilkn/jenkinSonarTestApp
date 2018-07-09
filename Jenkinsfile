@@ -1,4 +1,4 @@
  @Library("mylib") _
-   pipeline {
+   pipline{
        
     }
