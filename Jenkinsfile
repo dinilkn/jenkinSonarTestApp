@@ -1,26 +1,4 @@
-pipeline{
-
-agent any
- stages{
-  
-    stage('checkout from SCM'){
-     steps{
-          echo 'Checking SCM'
-        checkout scm
-      //    git credentialsId: 'de97785c-b80c-4e7d-8f05-60377dc48cde', url: 'https://github.com/dinilkn/jenkinSonarTestApp.git'
-
-     }
-   }
-  
-   stage('Build Using Maven'){
-     steps{
-          echo 'Build Using Maven'
-          sh 'mvn clean package sonar:sonar'
-     }
-   }
-  
-  
- }
-
-
-}
+ @Library("mylib") _
+   pipeline {
+       
+    }
